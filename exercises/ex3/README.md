@@ -31,7 +31,7 @@
     ![](../../images/scc_add_subaccount.png)
 
 1. Define your subaccount:
-    - Select **cf.us10.hana.ondemand.com** in the dropdown for **Region Host**
+    - Select **cf.us10.hana.ondemand.com** in the dropdown for **Region Host** (TechEd Las Vegas) or **cf.eu10.hana.ondemand.com** (TechEd Bangalore, TechEd Barcelona) 
     - Paste the ID you just copied in the cockpit as **Subaccount Name**.
     - Enter your **Subaccount User**, for cloud foundry environment it is the email address, which should be similar to `cpl618-XXX@teched.cloud.sap`.
     - Enter your Subaccount User **Password**.
@@ -120,7 +120,7 @@
 1. Right-click the **approuter-manifest.yml** file on your **Desktop** and select **Edit with Notepad++**. <p></p>
     ![](../../images/cf_edit_manifest_open_approuter.png)
 
-1.  Add your username as suffix to the host and the destination-url as highlighted in yellow in the screenshot and click the save icon.<p></p>
+1.  Add your username as suffix to the host and the destination-url as highlighted in yellow in the screenshot and click the save icon. **Note:** when using US East region (TechEd Las Vegas), you will also have to adjust the subdomain in the destination-url from cfapps.eu10.hana.ondemand.com to cfapps.us10.hana.ondemand.com. <p></p> 
     ![](../../images/cf_edit_manifest_save_approuter.png)
 
 ## Deploy the Approuter
