@@ -78,6 +78,9 @@
 1. Change the **Internal Host** to the hostname of your neighbor and click **Save**. <p></p>
     ![](../../images/scc_import_changeme.png)
 
+1. After changing the **Internal Host** to the hostname of your neighbor verify with the connection check button that you had no typos and your CLoud Connector can reach his ABAP system. <p></p>
+    ![](../../images/scc_check_connection.png)
+
 ## Import Destination
 
 1. Go back to the Cockpit.
