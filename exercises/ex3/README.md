@@ -82,8 +82,7 @@ In this exercise you will:
     ![](../../images/cf_import_destination_start.png)
 
 1. Select the file **abapBackend1** from the students share and click **Open**.<p></p>
-    ![](../../images/cp_import_abap_backend_1.png)
-    >Note: the URL is the virtual host/port defined previously in the Access Control (Cloud Connector).          
+    ![](../../images/cp_import_abap_backend_1.png)        
 
 1. Review that the file was imported correctly and add the password `welcome`. Then click **Save**. <p></p>
     ![](../../images/cf_import_destination_save.png)

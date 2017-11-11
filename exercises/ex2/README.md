@@ -105,7 +105,8 @@ In this exercise you will:
 1. Select **abapBackend2** and click **Open** <p></p>
     ![](../../images/cp_import_abap_backend_2.png)
 
-1. click **Save**. <p></p>
+1. Review that the file was imported correctly and add the password `welcome`. Then click **Save**. <p></p>
+    ![](../../images/cp_import_set_password_2b.png)
 
 <a name="import-application"></a>
 ## 5. Import Sample Application
