@@ -1,6 +1,13 @@
 # Exercise 1: Cloud Connector with Neo Environment
- 
-## Configure Cloud Connector
+In this exercise you will:
+1. [Configure Cloud Connector](#configure-cloud-connector)
+1. [Import Access Control](#import-acces-control)
+1. [Import Destination](#import-destination)
+1. [Import Sample Application](#import-application)
+1. [Run the App](#run-application)
+
+<a name="configure-cloud-connector"></a>
+## 1. Configure Cloud Connector
 
 1. Open Google Chrome.
 
@@ -21,7 +28,8 @@
     - Click **Save** <p></p>
     ![](../../images/define_subaccount.png)
 
-## Import Access Control
+<a name="import-acces-control"></a>
+## 2. Import Access Control
 
 1. Click **Cloud To On-Premise** and then the **import icon** (see screenshot blow). <p></p>
     ![](../../images/scc_import_open_dialog.png)
@@ -38,7 +46,8 @@
 1. Review that the import was successful. Your screen should look similar to the screenshot below. <p></p>
     ![](../../images/scc_import_review.png)
 
-## Import Destination
+<a name="import-destination"></a>
+## 3. Import Destination
 
 1. Navigate to https://hanatrial.ondemand.com/
 
@@ -56,7 +65,8 @@
 
 1. Click **Save**. <p></p>
 
-## Import Sample Application
+<a name="import-application"></a>
+## 4. Import Sample Application
 
 1. Open the SAP Web IDE:
     - Go to **Services**.
@@ -82,7 +92,8 @@
 1. Make sure **Import to** is set to `/html5-simple` and click **Ok**. <p></p>
     ![](../../images/cp_webide_import_simple.png)
 
-## Run the App
+<a name="run-application"></a>
+## 5. Run the App
 1. Make sure **html5-simple** is selected, otherwise select it with a single click. Now click the run-icon (see screenshot). <p></p>
     ![](../../images/cp_webide_run_simple.png)
 

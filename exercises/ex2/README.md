@@ -1,6 +1,14 @@
 # Exercise 2: Two Cloud Connectors with Neo Environment
+In this exercise you will:
+1. [Install second Cloud Connector](#install-second-cloud-connector)
+1. [Configure second Cloud Connector](#configure-second-cloud-connector)
+1. [Import Access Control](#import-access-control)
+1. [Import Destination](#import.destination)
+1. [Import Sample Application](#import-application)
+1. [Run the App](#run-application)
 
-## Install a second Cloud Connector
+<a name="install-second-cloud-connector"></a>
+## 1. Install second Cloud Connector
 
 1. Go to https://tools.hana.ondemand.com/#cloud and download the **Cloud Connector** for **Windows (Portable)**. <p></p>
     ![](../../images/scc_install_download.png)
@@ -23,7 +31,8 @@
 1. In the Command Prompt enter `cd Desktop\scc-portable` followed by `changeport.bat 9090` and finally `go.bat`. Now wait until you see the message **Cloud Connector 2.10.1 started on https:<i></i>//localhost:9090**. <p></p>
     ![](../../images/scc_install_start.png)
 
-## Configure second Cloud Connector
+<a name="configure-second-cloud-connector"></a>
+## 2. Configure second Cloud Connector
 
 1. Open the URL https://localhost:9090 in Chrome.
 
@@ -58,7 +67,8 @@
 
 1. Dismiss the upcoming message by clicking **OK**.
 
-## Import Access Control
+<a name="import-access-control"></a>
+## 3. Import Access Control
 
 1. Click **Cloud To On-Premise** and then the **import icon** (see screenshot blow). <p></p>
     ![](../../images/scc_import_open_dialog.png)
@@ -81,9 +91,10 @@
 1. After changing the **Internal Host** to the hostname of your neighbor verify with the connection check button that you had no typos and your CLoud Connector can reach his ABAP system. <p></p>
     ![](../../images/scc_check_connection.png)
 
-## Import Destination
+<a name="import.destination"></a>
+## 4. Import Destination
 
-1. Go back to the Cockpit.
+1. Go back to the cockpit.
 
 1. Open the Import Destination Dialog
     - Click **Connectivity**
@@ -96,7 +107,8 @@
 
 1. click **Save**. <p></p>
 
-## Import Sample Application
+<a name="import-application"></a>
+## 5. Import Sample Application
 
 1. Go back to SAP Web IDE.
 
@@ -112,7 +124,8 @@
 1. Make sure **Import to** is set to `/html5-complex` and click **Ok**. <p></p>
     ![](../../images/cp_webide_import_complex.png)
 
-## Run the App
+<a name="run-application"></a>
+## 6. Run the App
 1. Make sure **html5-complex** is selected, otherwise select it with a single click. Now click the run-icon (see screenshot). <p></p>
     ![](../../images/cp_webide_run_complex.png)
 
