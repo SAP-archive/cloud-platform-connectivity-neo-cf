@@ -11,7 +11,7 @@ No Download / Installation needed, you can view contents online:
 * [Exercise 3](/exercises/ex3/README.md)
 
 ## How to obtain support
-Feel free to contact [Philipp Stehle](mailto:philipp.stehle@sap.com?Subject=CPL618) or [Matthieu Pelatan](mailto:matthieu.pelatan@sap.com?Subject=CPL618) via Email.
+If you need any support, have any question, or have found a bug, please report it as an issue in the repository.
 
 ## Known Issues
 Currently there are no known issues.
